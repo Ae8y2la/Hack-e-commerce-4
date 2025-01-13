@@ -7,7 +7,7 @@ import { GiShoppingCart } from "react-icons/gi";
 import { FaRegHeart } from "react-icons/fa6";
 import { HiMiniBars3 } from "react-icons/hi2";
 import { HiXMark } from "react-icons/hi2";
-import TopBar from "./TopBar";
+import TopBar from "./Navbar";
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
