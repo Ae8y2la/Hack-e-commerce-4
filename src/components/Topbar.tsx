@@ -6,7 +6,7 @@ import { RiAccountBoxFill } from "react-icons/ri";
 import { FaRegHeart } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 
-const Topbar = () => {
+const TopBar = () => {
     {/*Topbar*/}
   return (
     
@@ -46,4 +46,4 @@ const Topbar = () => {
 );
 };
 
-export default Topbar;
+export default TopBar;

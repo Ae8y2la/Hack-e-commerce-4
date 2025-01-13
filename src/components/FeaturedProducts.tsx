@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { PiMagnifyingGlassFill } from "react-icons/pi";
 import { GiShoppingCart } from "react-icons/gi";
 import { FaRegHeart } from "react-icons/fa6";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { HeartIcon, ShoppingCartIcon, } from '@heroicons/react/24/outline';
 
 function FeaturedProducts() {

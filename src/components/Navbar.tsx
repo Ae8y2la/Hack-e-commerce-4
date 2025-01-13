@@ -1,5 +1,6 @@
 'use client';
 import Link from "next/link";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { FaEnvelope, FaPhoneAlt, FaUser, FaHeart, FaShoppingCart } from 'react-icons/fa';
 import { useState } from 'react';
 

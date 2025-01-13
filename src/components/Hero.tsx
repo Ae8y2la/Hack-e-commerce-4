@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 
 
 function Hero() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const router = useRouter();
 
   return (
