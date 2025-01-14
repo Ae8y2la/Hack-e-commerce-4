@@ -26,7 +26,7 @@ const blogs: Blog[] = [
     date: "December 9, 2024",
     category: "Design",
     excerpt: "This is a brief excerpt from the blog post.",
-    image: "/images/blog1.png", // Updated file name
+    image: "/image/blog1.png", // Updated file name
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const blogs: Blog[] = [
     date: "December 8, 2024",
     category: "Technology",
     excerpt: "This is another brief excerpt from the second blog post.",
-    image: "/images/blog2.png", // Updated file name
+    image: "/image/blog2.png", // Updated file name
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const blogs: Blog[] = [
     date: "December 7, 2024",
     category: "Travel",
     excerpt: "An excerpt from the third blog post about travel.",
-    image: "/images/blog3.png", // Updated file name
+    image: "/image/blog3.png", // Updated file name
   },
 ];
 

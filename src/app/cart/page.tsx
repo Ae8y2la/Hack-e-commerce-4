@@ -26,7 +26,7 @@ const initialCartProducts: CartItem[] = [
     quantity: 2,
     color: "Red",
     size: "M",
-    image: "/images/cart1.png",
+    image: "/image/cart1.png",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const initialCartProducts: CartItem[] = [
     quantity: 1,
     color: "Blue",
     size: "L",
-    image: "/images/cart2.png",
+    image: "/image/cart2.png",
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ const initialCartProducts: CartItem[] = [
     quantity: 2,
     color: "Yellow",
     size: "M",
-    image: "/images/cart4.png",
+    image: "/image/cart1.png",
   },
   {
     id: 5,
@@ -62,7 +62,7 @@ const initialCartProducts: CartItem[] = [
     quantity: 3,
     color: "Black",
     size: "L",
-    image: "/images/cart5.png",
+    image: "/image/cart2.png",
   },
 
 ];
