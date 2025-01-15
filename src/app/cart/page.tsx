@@ -44,7 +44,7 @@ const initialCartProducts: CartItem[] = [
     quantity: 1,
     color: "Green",
     size: "S",
-    image: "/images/cart3.png",
+    image: "/image/cart2.png",
   },
   {
     id: 4,
@@ -97,7 +97,7 @@ const Cart = () => {
 
   return (
     <>
-      <Header />
+       <Header />
       <div className="p-6 lg:p-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Cart Items */}
         <div className="lg:col-span-2">
@@ -107,7 +107,7 @@ const Cart = () => {
               {cartItems.map((item) => (
                 <div
                   key={item.id}
-                  className="flex items-center justify-between bg-white p-4 rounded-lg shadow-md"
+                  className="flex flex-wrap lg:flex-nowrap items-center justify-between bg-white p-4 rounded-lg shadow-md"
                 >
                   <div className="flex items-center space-x-4">
                     <Image
@@ -148,17 +148,17 @@ const Cart = () => {
             </p>
           )}
 
-          {/* Action Buttons */}
-          <div className="flex justify-between mt-6">
+        {/* Action Buttons */}
+        <div className="flex flex-col lg:flex-row justify-between mt-6 space-y-4 lg:space-y-0 lg:space-x-4">
             <button
               onClick={resetCart}
-              className="px-4 py-2 bg-[#FB2E86] text-white rounded-md text-sm hover:bg-pink-600"
+              className="w-full lg:w-auto px-4 py-2 bg-[#FB2E86] text-white rounded-md text-sm hover:bg-pink-600"
             >
               Update Cart
             </button>
             <button
               onClick={clearCart}
-              className="px-4 py-2 bg-[#FB2E86] text-white rounded-md text-sm hover:bg-pink-600"
+              className="w-full lg:w-auto px-4 py-2 bg-[#FB2E86] text-white rounded-md text-sm hover:bg-pink-600"
             >
               Clear Cart
             </button>
